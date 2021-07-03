@@ -3,7 +3,7 @@
 }
 nav {
   background-image: linear-gradient(to right, #384365, #374391, #5471b0);
-  height: 80px;
+  height: auto;
   font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
   font-weight: 900;
 }
