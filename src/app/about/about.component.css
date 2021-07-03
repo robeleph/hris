@@ -1,0 +1,81 @@
+html {
+  padding-bottom: 8%;
+  padding-top: 8%;
+  color: white;
+  font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+}
+h3 {
+  color: #aac7fd;
+  font-weight: 600;
+  font-size: 33px;
+  color: #506da5;
+}
+section {
+  height: 100%;
+  margin-top: 5%;
+}
+img {
+  padding: 0.45rem;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 28px;
+  border-color: grey;
+  color: grey;
+  width: 170px;
+}
+.animated {
+  animation: fadeIn linear 4.5s;
+  -webkit-animation: fadeIn linear 4.5s;
+  -moz-animation: fadeIn linear 4.5s;
+  -o-animation: fadeIn linear 4.5s;
+  -ms-animation: fadeIn linear 4.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

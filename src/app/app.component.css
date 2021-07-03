@@ -1,0 +1,13 @@
+#navbarCollapse ul {
+  cursor: pointer;
+}
+nav {
+  background-image: linear-gradient(to right, #384365, #374391, #5471b0);
+  height: 80px;
+  font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+a {
+  color: white;
+  font-size: medium;
+}

@@ -1,0 +1,21 @@
+footer {
+  color: white;
+  background-color: #454646;
+  height: 300px;
+  font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+}
+#hris {
+  /* background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: right;
+  background-image: url("../../assets/Moh_Logo.png");
+  opacity: 0.5; */
+}
+button {
+  background-color: #374391;
+  border-color: #374391;
+  border-radius: 0px;
+}
+input {
+  border-radius: 0px;
+}
