@@ -1,85 +1,104 @@
+@media only screen and (max-width: 1200px) {
+    #hra_container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    #hrl_container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 html {
-  font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+    font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
 }
+
 span {
-  background-image: linear-gradient(to right, #384365, #374391, #5471b0);
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: white;
-  font-weight: 600;
-  font-size: 20px;
+    background-image: linear-gradient(to right, #384365, #374391, #5471b0);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
 }
+
 #hra {
-  border-top: 2px solid rgba(196, 191, 191, 0.781);
-  border-right: 2px solid rgba(196, 191, 191, 0.781);
-  border-style: dashed dashed none none;
-  border-radius: 20px;
+    border-top: 2px solid rgba(196, 191, 191, 0.781);
+    border-right: 2px solid rgba(196, 191, 191, 0.781);
+    border-style: dashed dashed none none;
+    border-radius: 20px;
 }
+
 #hrd {
-  border-bottom: 2px solid rgba(196, 191, 191, 0.781);
-  border-left: 2px solid rgba(196, 191, 191, 0.781);
-  border-style: none none dashed dashed;
-  padding-left: 10%;
-  padding-right: 10%;
-  border-radius: 20px;
+    border-bottom: 2px solid rgba(196, 191, 191, 0.781);
+    border-left: 2px solid rgba(196, 191, 191, 0.781);
+    border-style: none none dashed dashed;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20px;
 }
+
 #hrl {
-  border-bottom: 2px solid rgba(196, 191, 191, 0.781);
-  border-right: 2px solid rgba(196, 191, 191, 0.781);
-  border-style: none dashed dashed none;
-  border-radius: 20px;
+    border-bottom: 2px solid rgba(196, 191, 191, 0.781);
+    border-right: 2px solid rgba(196, 191, 191, 0.781);
+    border-style: none dashed dashed none;
+    border-radius: 20px;
 }
+
 .animated {
-  animation: fadeIn linear 4.5s;
-  -webkit-animation: fadeIn linear 4.5s;
-  -moz-animation: fadeIn linear 4.5s;
-  -o-animation: fadeIn linear 4.5s;
-  -ms-animation: fadeIn linear 4.5s;
+    animation: fadeIn linear 4.5s;
+    -webkit-animation: fadeIn linear 4.5s;
+    -moz-animation: fadeIn linear 4.5s;
+    -o-animation: fadeIn linear 4.5s;
+    -ms-animation: fadeIn linear 4.5s;
 }
 
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

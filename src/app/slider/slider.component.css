@@ -1,34 +1,62 @@
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 34px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 24px !important;
+    }
+    #sign svg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #carouselExampleControls {
+        margin-top: 4rem;
+    }
+    #sign svg {
+        display: none;
+    }
+}
+
 body {
-  margin-top: 5%;
-  background-image: linear-gradient(to right, #384365, #374391, #5471b0);
-  font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #384365, #374391, #5471b0);
+    font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
 }
+
 img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
+
 .firstText {
-  position: absolute;
-  top: 10px;
-  left: 50px;
-  color: white;
-  border-color: white;
-  border: 2px solid;
-  padding: 1%;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: white;
+    border-color: white;
+    border: 2px solid;
+    padding: 1%;
 }
+
 button {
-  background-color: transparent;
-  border-radius: 28px;
-  border-color: white;
-  width: 170px;
+    background-color: transparent;
+    border-radius: 28px;
+    border-color: white;
+    width: 170px;
 }
+
 .svg-plus {
-  height: 60px;
-  stroke: rgba(196, 191, 191, 0.781);
-  position: absolute;
+    height: 60px;
+    stroke: rgba(196, 191, 191, 0.781);
+    position: absolute;
 }
+
 .svg-circle {
-  height: 25px;
-  stroke: rgba(196, 191, 191, 0.781);
-  position: absolute;
+    height: 25px;
+    stroke: rgba(196, 191, 191, 0.781);
+    position: absolute;
 }
