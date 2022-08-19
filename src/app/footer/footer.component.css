@@ -1,16 +1,14 @@
 footer {
-    color: white;
-    background-color: #454646;
-    height: auto;
-    font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #454646;
+  height: auto;
+  font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
 }
-
 button {
-    background-color: #374391;
-    border-color: #374391;
-    border-radius: 0px;
+  background-color: #374391;
+  border-color: #374391;
+  border-radius: 0px;
 }
-
 input {
-    border-radius: 0px;
+  border-radius: 0px;
 }

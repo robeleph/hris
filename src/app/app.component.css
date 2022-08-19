@@ -1,13 +1,49 @@
+@media only screen and (max-width: 830px) {
+    #navigation {
+        display: none;
+    }
+    h4 {
+        font-size: 17px;
+    }
+    #main_2 {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    h4 {
+        font-size: 12px;
+    }
+    #navigation {
+        display: none;
+    }
+    #main_2 {
+        display: flex;
+    }
+}
+
 #navbarCollapse ul {
-  cursor: pointer;
+    cursor: pointer;
 }
+
 nav {
-  background-image: linear-gradient(to right, #384365, #374391, #5471b0);
-  height: auto;
-  font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
-  font-weight: 900;
+    background-image: linear-gradient(to right, #384365, #374391, #5471b0);
+    height: 100px;
+    font-family: TitilliumWeb, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding: 20px 15px;
 }
+
 a {
-  color: white;
-  font-size: medium;
+    color: white;
+    font-size: medium;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main_2 {
+    display: flex;
 }
